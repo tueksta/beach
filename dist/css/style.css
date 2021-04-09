@@ -19,8 +19,7 @@ section {
 }
 
 h1 {
-				font-size: 2em;
-				margin: 0;
+				margin-bottom: 8px !important;
 				background-image: -webkit-gradient(linear, 0% 0%, 100% 100%, from(hsl(191, 50%, 53%)), to(hsl(222, 100%, 83%)));
 				-webkit-background-clip: text;
 				-webkit-text-fill-color: transparent;
@@ -410,7 +409,9 @@ h6,
 
 h1,
 .h1 {
-				font-size: 38px;
+				font-family: "Arial Rounded MT Bold", sans-serif;
+				font-weight: 400;
+				font-size: 2em;
 				line-height: 48px;
 				letter-spacing: -0.1px
 }
@@ -419,7 +420,8 @@ h1,
 
 				h1,
 				.h1 {
-								font-size: 44px;
+								font-weight: 400 !important;
+								font-size: 3em !important;
 								line-height: 54px;
 								letter-spacing: 0px
 				}
@@ -916,11 +918,11 @@ label {
 }
 
 .container-sm {
-				max-width: 848px
+				max-width: 948px
 }
 
 .container .container-sm {
-				max-width: 800px;
+				max-width: 900px;
 				padding-left: 0;
 				padding-right: 0
 }
@@ -1829,6 +1831,7 @@ label {
 .features-wrap {
 				max-width: 1128px;
 				margin: 0 auto;
+				padding-top: 20px;
 				overflow: hidden;
 }
 
