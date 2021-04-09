@@ -791,7 +791,7 @@ label {
 
 #thumbnail .thumbnail-list li.active span {
 				font-size: 18px;
-				font-weight: 500;
+				font-weight: 600;
 				line-height: 1.1;
 }
 
@@ -805,6 +805,18 @@ label {
 				letter-spacing: -.1px;
 				-webkit-transition: ease-in-out .3s;
 				transition: ease-in-out .3s;
+}
+
+#thumbnail .thumbnail-list li a {
+
+				margin-left: 8px;
+}
+
+#thumbnail .thumbnail-list li a object {
+				fill: white;
+				pointer-events: none;
+				width: 14px;
+				height: 14px;
 }
 
 .blur-img {
@@ -832,7 +844,7 @@ label {
 
 #outerdiv {
 				width: 520px;
-				height: 120px;
+				height: 150px;
 				overflow: hidden;
 				position: absolute;
 				top: 0px;
