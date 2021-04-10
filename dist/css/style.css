@@ -1760,15 +1760,15 @@ label {
 
 @media (max-width: 939px) {
 				.hero-cta>* {
-								display: flex
+								display: flex;
 				}
 
 				.hero-cta>*+* {
-								margin-top: 32px
+								margin-top: 32px;
 				}
 
 				.lights-toggle {
-								justify-content: center
+								justify-content: center;
 				}
 }
 
@@ -1776,7 +1776,7 @@ label {
 				.hero {
 								text-align: left;
 								padding-top: 8px;
-								padding-bottom: 20px
+								padding-bottom: 20px;
 				}
 
 				.hero-inner {
